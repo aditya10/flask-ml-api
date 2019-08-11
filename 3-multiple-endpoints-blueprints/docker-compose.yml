@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+
+  api:
+    container_name: flask_api
+    restart: always
+    build: ./api
+    volumes: ['./api:/api']
+    networks:
+      - apinetwork
+    expose:
+      - "5000"
+    ports:
+      - "5000:5000"
+
+  nginx:
+    container_name: nginx
+    restart: always
+    build: ./nginx
+    networks:
+      - apinetwork
+    expose:
+      - "8080"
+    ports:
+      - "80:8080"
+
+networks:
+  apinetwork:

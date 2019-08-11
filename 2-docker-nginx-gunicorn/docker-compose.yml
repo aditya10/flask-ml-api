@@ -15,7 +15,7 @@ services:
       - "5000:5000"
 
   nginx:
-    container_name: nginx_1
+    container_name: nginx
     restart: always
     build: ./nginx
     networks:

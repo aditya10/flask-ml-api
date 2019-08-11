@@ -1,7 +1,7 @@
 # Flask ML API with Docker, Gunicorn WSGI and Nginx
 Building upon the first phase, we dockerize the flask app, and use Gunicorn WSGI
 to achieve a much more stable and production-ready Flask API. We also use Nginx 
-to interface with 
+to interface with Gunicorn.
 
 The model is developed in [this tutorial](https://medium.com/technonerds/using-fastais-ulmfit-to-make-a-state-of-the-art-multi-label-text-classifier-bf54e2943e83).
 
