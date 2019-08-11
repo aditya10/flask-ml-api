@@ -1,0 +1,4 @@
+[console_scripts]
+segmenter = segtok.segmenter:main
+tokenizer = segtok.tokenizer:main
+

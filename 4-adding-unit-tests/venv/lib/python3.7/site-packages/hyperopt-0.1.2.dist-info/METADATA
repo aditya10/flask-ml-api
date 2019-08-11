@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: hyperopt
+Version: 0.1.2
+Summary: Distributed Asynchronous Hyperparameter Optimization
+Home-page: http://hyperopt.github.com/hyperopt/
+Author: James Bergstra
+Author-email: james.bergstra@gmail.com
+License: BSD
+Keywords: Bayesian optimization hyperparameter model selection
+Platform: Linux
+Platform: OS-X
+Platform: Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pymongo
+Requires-Dist: six
+Requires-Dist: networkx
+Requires-Dist: future
+Requires-Dist: tqdm
+Provides-Extra: dill
+Requires-Dist: dill ; extra == 'dill'
+
+UNKNOWN
+
+
