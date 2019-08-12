@@ -3,7 +3,7 @@ version: '3'
 services:
 
   api:
-    container_name: classifier_api
+    container_name: flask_api
     restart: always
     build: ./api
     volumes: ['./api:/api']
